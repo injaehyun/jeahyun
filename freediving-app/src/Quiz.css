@@ -43,3 +43,19 @@
 .score-section {
   font-size: 24px;
 }
+
+.previous-button {
+  background-color: #f0ad4e; /* A distinct color, e.g., orange */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 20px; /* Space from answer buttons */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: flex-start; /* Align to the left if container is flex */
+}
+
+.previous-button:hover {
+  background-color: #ec971f;
+}

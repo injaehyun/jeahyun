@@ -1,0 +1,11 @@
+요청하신 대로 폴더 구조를 변경했습니다. 이제 `freediving-app` 디렉토리의 모든 내용이 프로젝트의 루트 디렉토리로 이동되었습니다. `package.json` 파일도 루트에 있습니다.
+
+이제 Cloudflare Pages에서 새 배포를 트리거해 주셔야 합니다.
+
+**Cloudflare Pages 설정 재확인:**
+폴더 구조가 변경되었으므로 Cloudflare Pages 설정이 이제 기본적으로 작동할 가능성이 높습니다.
+*   **Root directory:** `(비워둠)` 또는 `.` (레포지토리 루트를 의미)
+*   **Build command:** `npm run build`
+*   **Build output directory:** `build`
+
+이 설정으로 다시 배포하신 후, 웹사이트에 접속하여 모든 것이 올바르게 작동하는지 확인해 주세요. 문제 해결에 도움이 되었기를 바랍니다! 
